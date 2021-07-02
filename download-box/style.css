@@ -1,0 +1,78 @@
+:root {
+  	--soft-gray: #ddd;
+  	--dark-blue: #005294;
+	}
+	.jonariar-dl-boxs {
+		padding: 0.2rem;
+		margin: 0.2rem;
+		border: 1px solid var(--soft-gray);
+		border-radius: 0.2rem;
+	}
+	.jonariar-dl-boxs h2 {
+		text-align: center;
+		font-size: 13px;
+		margin: 0;
+		padding : 0.3rem 0.5rem;
+		border-radius: 0.2rem;
+		background-color: var(--dark-blue);
+		color: white;
+	}
+	.deps-dl-box {
+		margin-bottom : 0.2rem;
+		border-bottom : 1px solid var(--soft-gray);
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.deps-dl-box h3 {
+		width: 100%;
+		display: flex;
+		padding: 0 0.5rem;
+		margin-bottom: 0.5rem;
+		font-size: 14px;
+		text-transform: uppercase;
+		border-bottom: 1px solid var(--dark-blue);
+	}
+	.deps-dl-box h3 span {
+		font-size: 10px;
+		margin: 0 0.2rem;
+		color : var(--dark-blue);
+		padding: 0.2rem 0.5rem;
+		border: 1px solid var(--soft-gray);
+		border-bottom: none;
+		border-radius: 0.2rem 0.2rem 0 0;
+	}
+	.deps-dl-list {
+		width: 100%;
+		display: flex:
+		flex-wrap: wrap;
+		font-size: 12px;
+		margin-bottom: 1rem;
+	}
+	.deps-dl-list a {
+		width: 30%;
+		color: var(--dark-blue);
+		text-decoration: none;
+		vertical-align: middle;
+		display: inline-flex;
+		border-bottom: 1px solid #bbb;
+		border-radius: 1rem;
+		margin-bottom: 0.25rem;
+	}
+	.deps-dl-list a * {
+		margin: auto 0;
+	}
+	.deps-dl-list a span {
+		margin: 0.25rem 0.5rem;
+		font-size: 11px;
+		-webkit-line-clamp: 1;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		display :-webkit-box;
+		-webkit-box-orient: vertical;
+		position : relative;
+	}
+	.deps-dl-list a img {
+		width: 12px;
+		height: 12px;
+		padding: 0.2rem;
+	}
